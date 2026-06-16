@@ -13,6 +13,10 @@ public class GitactionsApplication {
 	public String saludar() {
 		return "Hola Mundo - 2026! " ;
 	}
+	@GetMapping("/despedida")
+	public String despedida() {
+		return "Adios Mundo - 2026! " ;
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(GitactionsApplication.class, args);
